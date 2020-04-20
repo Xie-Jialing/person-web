@@ -82,7 +82,3 @@ header p{
     padding-top: 32px;
     padding-bottom: 64px;
 }
-.icon{
-    display: flex;
-    justify-content: space-between;
-}
