@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -52,33 +52,39 @@ table {
 img{
   max-width:100%;
   height:auto;
-  display:block;
 }
 .wrap{
-    max-width:1920px;
+    max-width: 1920px;
 }
 header{
     background: url(../img/banner.png) center no-repeat;
-    background-size: cover;
-    margin-bottom: 64px;
     height: 960px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
     color: #ffffff;
 }
-header h3{
+.dfc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header span{
     font-size: 24px;
-    line-height: 42px; 
+    line-height: 42px;
+    text-align: left;
+    width: 250px;
 }
 header h1{
     font-size: 80px;
     line-height: 94px;
+    margin-bottom: 32px;
 }
 header p{
     font-size: 24px;
     line-height: 42px;
-    padding-top: 32px;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
+}
+header ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
 }
