@@ -60,6 +60,7 @@ header{
     background: url(../img/banner.png) center no-repeat;
     height: 960px;
     color: #ffffff;
+    margin-bottom: 64px;
 }
 .dfc{
     display: flex;
@@ -87,4 +88,89 @@ header ul{
     display: flex;
     width: 300px;
     justify-content: space-between;
+}
+.about h2{
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+.about p,.work li,.brand h3{
+    font-size: 24px;
+    line-height: 42px;
+}
+.lh{
+    line-height: 36px;
+    text-align: center;
+}
+.line{
+    width: 384px;
+    border: 1px solid #000;
+    margin-top: 32px;
+    margin-bottom: 34px;
+}
+
+.work li{
+    margin-bottom: 32px;
+    position: relative;
+}
+.work li::before{
+    content:"";
+    width: 22px;
+    height: 22px;
+    background: #891818;
+    position: absolute;
+    border-radius:50%;
+    left: -38px;
+    top: 10px;
+}
+.brand{
+    margin-top: 24px;
+    background: #000000;
+    color: #ffffff;
+}
+.brand h2{
+    font-size: 64px;
+    line-height: 75px;
+    padding-bottom: 16px;
+    padding-top: 64px;
+}
+.brand h3{
+    margin-bottom: 32px;
+}
+.brand p{
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.brand img{
+    margin-bottom: 40px;
+}
+.content{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+.works{
+    background: url(../img/photo-1561291386-5be50364cfb5.png) no-repeat;
+    background-size: 100%;
+    
+    background-position: center bottom;
+}
+.works h2{
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+.works p{
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.photo{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
 }
