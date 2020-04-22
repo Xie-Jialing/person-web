@@ -153,24 +153,57 @@ header ul{
     margin-bottom: 160px;
 }
 .works{
-    background: url(../img/photo-1561291386-5be50364cfb5.png) no-repeat;
-    background-size: 100%;
-    
+    background: url(../img/photo-1561291386-5be50364cfb5.png);
+    background-repeat: no-repeat;
     background-position: center bottom;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 102px;
+}
+.works-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .works h2{
     font-size: 64px;
     line-height: 75px;
-    margin-top: 64px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
-.works p{
+.works .works-main{
     font-size: 20px;
     line-height: 42px;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
 }
-.photo{
-    width: 1200px;
+.list{
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    color: #ffffff;
+}
+.list li p{
+    padding-top: 16px;
+    font-size: 20px;
+    line-height: 42px;
+    padding-bottom: 58px;
+}
+.footer{
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+}
+.footer h2{
+    font-size: 64px;
+    line-height: 75px;
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+.footer .mail{
+    padding-bottom: 16px;
+}
+.footer p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.pb-80{
+    padding-bottom: 80px;
 }
