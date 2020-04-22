@@ -54,13 +54,15 @@ img{
   height:auto;
 }
 .wrap{
-    max-width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 header{
     background: url(../img/banner.png) center no-repeat;
     height: 960px;
     color: #ffffff;
     margin-bottom: 64px;
+    
 }
 .dfc{
     display: flex;
