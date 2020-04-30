@@ -54,7 +54,6 @@ img{
   height:auto;
 }
 .wrap{
-    max-width: 100%;
     margin: 0 auto;
 }
 header{
@@ -96,9 +95,16 @@ header ul{
     line-height: 75px;
     margin-bottom: 40px;
 }
+.about img{
+    display: block;
+    padding-bottom: 24px;
+}
 .about p,.work li,.brand h3{
     font-size: 24px;
     line-height: 42px;
+}
+.about p{
+    padding-bottom: 8px;
 }
 .lh{
     line-height: 36px;
