@@ -152,13 +152,14 @@ header ul{
     margin-bottom: 48px;
 }
 .brand img{
-    margin-bottom: 40px;
+    display: block;
+    padding-bottom: 40px;
 }
-.content{
-    max-width: 1200px;
+.brand .photo{
+    width: 1200px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 160px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .works{
     background: url(../img/photo-1561291386-5be50364cfb5.png);
