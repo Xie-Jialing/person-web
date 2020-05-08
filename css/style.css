@@ -53,9 +53,7 @@ img{
   max-width:100%;
   height:auto;
 }
-.wrap{
-    margin: 0 auto;
-}
+
 header{
     background: url(../img/banner.png) center no-repeat;
     height: 960px;
